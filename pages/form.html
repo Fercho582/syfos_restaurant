@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<link rel="shortcut icon" href="../images/logo.ico">
+		<title>Syfo's Restaurant | Ingreso</title>
+	</head>
+	<body>
+		<header>
+			<img class="logo" src="../images/logo.png" alt="logo">
+		</header>
+		<nav class="nav">
+			<div class="restaurantname">Syfo's Restaurant</div>
+			<ul class="menu">
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="plates.html">A la Carta</a></li>
+				<li><a href="salads.html">Ensaladas</a></li>
+				<li><a href="desserts.html">Postres</a></li>
+				<li><a href="beverages.html">Bebidas</a></li>
+				<li><a href="#" class="identifier">Ingreso</a></li>
+			</ul>
+			
+		</nav>
+		<article class="transparentbg">
+			<section>
+				<table class="tabla" >
+					<form action="" name="datos">
+						<tr class="tituloform">
+							<td colspan="2" align="center">
+								<h1>Formulario de ingreso</h1>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="CE">Correo electrónico: </label>
+							</td>
+							<td>
+							<input type="email" id="CE" name="Correo" size="30" class="campo" required autofocus class="outline" placeholder="ejemplo123@ejemplo.com">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="C">Contraseña: </label>
+							</td>
+							<td>
+								<input type="password" id="C" name="Contraseña" size="30" class="campo" required class="outline" placeholder="********">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Fecha de nacimiento: </label>
+							</td>
+							<td>
+								<input type="date" name="fecha">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Género: </label>
+							</td>
+							<td>
+								<input type="radio" name="calificacion">Masculino
+								<input type="radio" name="calificacion">Femenino
+								<input type="radio" name="calificacion">Otro
+
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="servidor">Ciudad: </label>
+							</td>
+							<td>
+								<input list="servidores" name="servidor" id="servidor">
+
+								<datalist id="servidores">
+								  <option value="">
+								  <option value="Santa Marta">
+								  <option value="Ciénaga">
+								  <option value="Barranquilla">
+								</datalist>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="D">Dirección: </label>
+							</td>
+							<td>
+								<input type="text" id="D" name="direccion" placeholder="Calle 00 #00-00">
+							</td>
+						</tr>		
+						<tr>
+								<td colspan="2" align="center">
+									<a class="bottomsend" href="../Index.html">Enviar</a>
+								</td>
+						</tr>
+					</form>
+				</table>
+			</section>
+		</article>
+		<footer>
+			Derechos Reservados | Syfo's Project
+		</footer>
+	</body>
+</html>
