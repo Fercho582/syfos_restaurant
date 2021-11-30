@@ -1,22 +1,35 @@
 body
 {
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/background.jpg"); /*Imagen de fondo*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	color: whitesmoke;
 }
+
+/*Logo*/
 header
 {
-	text-align: center;
 	background: rgba(0, 0 , 0, 0.7);
 	margin: -12px -8px;
 }
+.logo
+{
+	padding: 20px;
+	display: block;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 25%;
+}
+
+/*Shadow*/
 .transparentbg
 {
 	background: rgba(0, 0 , 0, 0.4);
 	margin: auto -8px;
 }
+
+/*Barra de navegación*/
 .nav
 {
 	background: rgba(0, 0, 0, 0.9);
@@ -24,44 +37,6 @@ header
 	align-items: center;
 	justify-content: space-between;
 	margin: 12px -8px ;
-}
-.restaurantname
-{
-	font-size: 30px;
-}
-.parragraph
-{
-	font-size: 150%;
-	padding: 20px 30px;
-}
-.video
-{
-	text-align: center;
-}
-.recipes
-{
-	display: grid;
-	grid-template-columns: auto auto;
-	text-align: center;
-}
-.recipes img
-{
-	display: block;
-	margin: auto;
-	width: 60%;
-	padding: 30px;
-}
-section
-{
-	margin: 2% 0%;
-}
-article section div p
-{
-	background: rgba(0, 0 , 0, 0.4);
-	margin: -2% 20%;
-	margin-bottom: 3%;
-	border-radius: 6px;
-	font-size: 150%;
 }
 .menu
 {
@@ -87,18 +62,64 @@ article section div p
 	color: rgba(255, 255, 255, 1);
 	background: rgba(255, 0, 0, 0.5);
 }
+
+/*Nombre del restaurante*/
+.restaurantname
+{
+	font-size: 30px;
+}
+
+/*Parrafos*/
+.parragraph
+{
+	font-size: 150%;
+	padding: 20px 30px;
+}
+
+/*Video*/
+.video
+{
+	text-align: center;
+}
+
+/*Recetas*/
+.recipes
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+}
+.recipes img
+{
+	display: block;
+	margin: auto;
+	width: 60%;
+	padding: 30px;
+}
+article section div p
+{
+	background: rgba(0, 0 , 0, 0.4);
+	margin: -2% 20%;
+	margin-bottom: 3%;
+	border-radius: 6px;
+	font-size: 150%;
+}
+
+/*Pagina actual*/
 .identifier
 {
 	background: rgba(200, 0, 0, 0.5);
 }
-.logo
+
+footer
 {
-	padding: 20px;
-	display: block;
-	margin: auto;
-	background: rgba(0, 0, 0, 0.2);
-	border-radius: 25%;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	line-height: 5;
+	margin: 0px -8px;
 }
+
+/*Formulario*/
 tr td h1
 {
 	font-size: 30px;
@@ -126,15 +147,4 @@ tr td h1
 	padding: 7px 7px;
 	color: rgba(255, 0, 0, 0.7);
 	background: rgba(255, 255, 255, 0.5);
-}
-footer
-{
-	background: rgba(0, 0, 0, 0.7);
-	text-align: center;
-	line-height: 5;
-	margin: 0px -8px;
-}
-h3
-{
-	font-size: 30px;
 }
